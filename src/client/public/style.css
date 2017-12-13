@@ -1,8 +1,33 @@
 body {
   text-align: center;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 li {
   list-style: none;
+}
+
+.actions button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 5px;
+  color: white;
+  font-family: Helvetica;
+}
+
+.pass {
+  background-color: #009688;
+}
+
+.error {
+  background-color: #FF9800;
+}
+
+.fail {
+  background-color: #F44336;
+}
+
+.reset {
+  background-color: black;
 }
